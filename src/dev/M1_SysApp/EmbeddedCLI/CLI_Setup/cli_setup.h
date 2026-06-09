@@ -11,8 +11,8 @@
 #include "dev/M5_Utils/Define/define.h"
 #include "stddef.h"
 // Definitions for CLI sizes
-#define CLI_RX_BUFFER_SIZE 		16
-#define CLI_CMD_BUFFER_SIZE 	64
+#define CLI_RX_BUFFER_SIZE 		256
+#define CLI_CMD_BUFFER_SIZE 	512
 #define CLI_HISTORY_SIZE 		128
 #define CLI_MAX_BINDING_COUNT 	32
 #define CLI_AUTO_COMPLETE 		1

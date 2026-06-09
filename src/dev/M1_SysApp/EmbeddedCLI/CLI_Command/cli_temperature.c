@@ -133,7 +133,7 @@ void TempProfile_InputHandler(EmbeddedCli *cli, char *input, uint8_t step) {
                 sprintf(buf, "\r\n | -> step[%d]: ", current_step_idx);
                 UART2_SendString(buf);
             } else {
-                // xong ? sang SAVE
+                // xong, sang SAVE
                 UART2_SendString("\r\n Save? (Y/N): ");
             }
             break;
@@ -357,4 +357,89 @@ void CMD_Temp_PID_get(EmbeddedCli *cli, char *args, void *context) {
     char buf[128];
     snprintf(buf, sizeof (buf), "State %d PID: Kp=%.3f Ki=%.3f Kd=%.3f", state_id, cfg->kp, cfg->ki, cfg->kd);
     embeddedCliPrint(cli, buf);
+}
+
+void CMD_Temp_prof_set(EmbeddedCli *cli, char *args, void *context)
+{
+    (void)context;
+
+    const char *token;
+    profileData_t profileDataTemp = {0};
+
+    int prof_id;
+    int arg_idx = 1;
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    prof_id = atoi(token);
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.main_ntc = (uint8_t)atoi(token);
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.sec_ntc = (uint8_t)atoi(token);
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.tec_mask = (uint8_t)atoi(token);
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.heater_mask = (uint8_t)atoi(token);
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.set_point = (int16_t)atoi(token);
+
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.main_sec_delta = (int16_t)atoi(token);
+    
+    token = embeddedCliGetToken(args, arg_idx++);
+    if (token == NULL) goto error;
+    profileDataTemp.step_count = (uint8_t)atoi(token);
+
+    profileDataTemp.enabled = 0;
+    profileDataTemp.start = 0;
+
+    for (uint8_t i = 0; i < profileDataTemp.step_count; i++)
+    {
+        int start, stop, duration, mode;
+
+        token = embeddedCliGetToken(args, arg_idx++);
+        if (token == NULL) break;
+        start = atoi(token);
+
+        token = embeddedCliGetToken(args, arg_idx++);
+        if (token == NULL) goto error;
+        stop = atoi(token);
+
+        token = embeddedCliGetToken(args, arg_idx++);
+        if (token == NULL) goto error;
+        duration = atoi(token);
+
+        token = embeddedCliGetToken(args, arg_idx++);
+        if (token == NULL) goto error;
+        mode = atoi(token);
+
+        profileDataTemp.steps[i].start_point = (int16_t)start;
+        profileDataTemp.steps[i].set_point = (int16_t)stop;
+        profileDataTemp.steps[i].duration = (uint32_t)duration;
+        profileDataTemp.steps[i].control_mode = (uint8_t)mode;
+    }
+
+    if (prof_id < 0 || prof_id >= PROFILE_MAX_NUM)
+    {
+        embeddedCliPrint(cli, "[ERROR] invalid profile id");
+        return;
+    }
+
+    DB_temp_profile_write((uint8_t)prof_id, &profileDataTemp);
+    embeddedCliPrint(cli, "[OK] temp_profile_set");
+    return;
+
+error:
+    embeddedCliPrint(cli, "[ERROR] temp_profile_set args");
 }

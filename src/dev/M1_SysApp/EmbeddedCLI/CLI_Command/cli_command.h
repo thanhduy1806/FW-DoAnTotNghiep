@@ -37,4 +37,6 @@ void CMD_Temp_log_toggle(EmbeddedCli *cli, char *args, void *context);
 void CMD_Temp_PID_set(EmbeddedCli *cli, char *args, void *context);
 void CMD_Temp_PID_get(EmbeddedCli *cli, char *args, void *context);
 
+void CMD_Temp_prof_set(EmbeddedCli *cli, char *args, void *context);
+
 #endif /* M2_SYSTEM_CLI_TERMINAL_CLI_COMMAND_CLI_COMMAND_H_ */
