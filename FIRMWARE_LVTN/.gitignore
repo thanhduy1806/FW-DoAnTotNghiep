@@ -1,0 +1,121 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+**/.generated_files/
+build/
+dist/
+01_Satellite_FW.X/nbproject/private/
+01_Satellite_FW.X/nbproject/Makefile-*
+01_Satellite_FW.X/nbproject/Package-*
+
+####################################
+# Python virtual environments
+####################################
+
+venv/
+.venv/
+env/
+.env/
+
+# python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+####################################
+# Python packaging / build
+####################################
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+####################################
+# MkDocs build output
+####################################
+
+site/
+
+####################################
+# Robot Framework outputs
+####################################
+
+output.xml
+log.html
+report.html
+
+####################################
+# IDE files
+####################################
+
+.vscode/
+.idea/
+
+####################################
+# OS files
+####################################
+
+.DS_Store
+Thumbs.db
+
+####################################
+# log files
+####################################
+
+*.log
+test/logs/
+test/tests/logs/
+01_Satellite_FW.X/queuelogs/

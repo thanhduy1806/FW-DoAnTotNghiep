@@ -1,0 +1,292 @@
+configVersion: 1.0.0
+componentName: mcan1
+coreVersion: 5.8.3
+device: ATSAMV71Q21B
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: mcan1
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: mcan1
+          x: '5'
+          y: '324'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    CALCULATED_NOMINAL_BITRATE:
+      attributes:
+        id: CALCULATED_NOMINAL_BITRATE
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '1000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    CALCULATED_NOMINAL_ERRORRATE:
+      attributes:
+        id: CALCULATED_NOMINAL_ERRORRATE
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '0.000'
+          type: Dynamic
+        type: Values
+      type: String
+    FILTERS_STD_NOMATCH:
+      attributes:
+        id: FILTERS_STD_NOMATCH
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    INTERRUPT_MODE:
+      attributes:
+        id: INTERRUPT_MODE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    MCAN_CORE_CLOCK_FREQ:
+      attributes:
+        id: MCAN_CORE_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '120000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCAN_MATRIX_CAN_ENABLE:
+      attributes:
+        id: MCAN_MATRIX_CAN_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NBTP_NSJW:
+      attributes:
+        id: NBTP_NSJW
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '30'
+          type: Dynamic
+        - attributes:
+            value: '30'
+          type: User
+        type: Values
+      type: Integer
+    NBTP_NTSEG1:
+      attributes:
+        id: NBTP_NTSEG1
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '89'
+          type: Dynamic
+        type: Values
+      type: Integer
+    NBTP_NTSEG2:
+      attributes:
+        id: NBTP_NTSEG2
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '30'
+          type: Dynamic
+        type: Values
+      type: Integer
+    NBTP_TOTAL_TIME_QUANTA:
+      attributes:
+        id: NBTP_TOTAL_TIME_QUANTA
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '120'
+          type: Dynamic
+        type: Values
+      type: Integer
+    NOMINAL_BITRATE:
+      attributes:
+        id: NOMINAL_BITRATE
+      children:
+      - children:
+        - attributes:
+            value: '1000'
+          type: User
+        type: Values
+      type: Integer
+    NOMINAL_TIME_QUANTA_PERIOD:
+      attributes:
+        id: NOMINAL_TIME_QUANTA_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '8.333'
+          type: Dynamic
+        type: Values
+      type: String
+    RXF0_ELEMENTS:
+      attributes:
+        id: RXF0_ELEMENTS
+      children:
+      - children:
+        - attributes:
+            value: '32'
+          type: User
+        type: Values
+      type: Integer
+    RXF0_WATERMARK:
+      attributes:
+        id: RXF0_WATERMARK
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '16'
+          type: Dynamic
+        type: Values
+      type: Integer
+    RXF0_WP:
+      attributes:
+        id: RXF0_WP
+      children:
+      - children:
+        - attributes:
+            value: '50'
+          type: User
+        type: Values
+      type: Integer
+    RXF1_ELEMENTS:
+      attributes:
+        id: RXF1_ELEMENTS
+      children:
+      - children:
+        - attributes:
+            value: '8'
+          type: User
+        type: Values
+      type: Integer
+    RXF1_WATERMARK:
+      attributes:
+        id: RXF1_WATERMARK
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Integer
+    RXF1_WP:
+      attributes:
+        id: RXF1_WP
+      children:
+      - children:
+        - attributes:
+            value: '50'
+          type: User
+        type: Values
+      type: Integer
+    TX_FIFO_ELEMENTS:
+      attributes:
+        id: TX_FIFO_ELEMENTS
+      children:
+      - children:
+        - attributes:
+            value: '16'
+          type: User
+        type: Values
+      type: Integer
+    TX_FIFO_WATERMARK:
+      attributes:
+        id: TX_FIFO_WATERMARK
+      children:
+      - children:
+        - attributes:
+            id: mcan1
+            value: '8'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TX_FIFO_WP:
+      attributes:
+        id: TX_FIFO_WP
+      children:
+      - children:
+        - attributes:
+            value: '50'
+          type: User
+        type: Values
+      type: Integer
+    instHeaderFile:
+      attributes:
+        id: instHeaderFile
+      children:
+      - children:
+        - attributes:
+            id: source
+          children:
+          - type: Value
+            value: ../peripheral/mcan_11273/templates/plib_mcan_interrupt.h.ftl
+          type: String
+        type: Attributes
+      type: File
+    sourceFile:
+      attributes:
+        id: sourceFile
+      children:
+      - children:
+        - attributes:
+            id: source
+          children:
+          - type: Value
+            value: ../peripheral/mcan_11273/templates/plib_mcan_interrupt.c.ftl
+          type: String
+        type: Attributes
+      type: File
+    FILTERS_EXT_NOMATCH:
+      attributes:
+        id: FILTERS_EXT_NOMATCH
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+  userData: {}

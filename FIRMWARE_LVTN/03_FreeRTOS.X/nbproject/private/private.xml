@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/AppOS/App_x_Root/app_root.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/nanopb/pb.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_can_pbuf.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/portable/GCC/ARM_CM7/r0p1/port.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/AppOS/App_3_CSP/app_csp.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/AppOS/App_4_CTRL/app_ctrl.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/evt/evt.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/Boot/boot_manager.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rparam/exp_rparam_table.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M3_Devices/FRAM_USART-SPI/fram_usart.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/EmbeddedCLI/CLI_Command/cli_command.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M2_BSP/UART/uart_irq.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_can.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/Boot/boot_manager.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/ATSAMV71cm7_it.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M2_BSP/UART/uart_irq.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/csp_iflist.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/main.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/config/default/peripheral/clk/plib_clk.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rgosh/gosh.pb.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/EmbeddedCLI/CLI_Setup/cli_setup.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rparam/gs_support/endian.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/AppOS/App_4_CTRL/app_ctrl.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rparam/gs_support/gs_string.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rparam/gs_support/byteorder.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M2_BSP/UART/uart_dma.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/config/default/definitions.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/EmbeddedCLI/CLI_Setup/cli_setup.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/config/default/initialization.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/rtable/csp_rtable.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rparam/param/internal/table.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M0_App/OS/os.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/tasks.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/drivers/can/can_mcan.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/xlog/xlog.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/csp_buffer.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/portable/GCC/ARM_CM7/r0p1/portmacro.h</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M4_Middlewares/libcsp-1.6/src/csp_compat.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M5_Utils/RingBuffer/ring_buffer.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/config/default/peripheral/mcan/plib_mcan1.c</file>
+            <file>file:/F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/src/dev/M1_SysApp/rparam/gs_support/pgm.h</file>
+        </group>
+    </open-files>
+</project-private>

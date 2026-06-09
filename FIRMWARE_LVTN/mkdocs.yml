@@ -1,0 +1,86 @@
+site_name: ATSAMV71 Firmware Project
+site_description: Project-ready documentation for ATSAMV71 firmware, Renode simulation, Robot Framework automation, and CI/CD
+site_author: Project Team
+repo_name: atsamv71-fw
+repo_url: https://github.com/your-org/atsamv71-fw
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - fenced_code
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Project Layout: project-layout.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Memory and Startup: architecture/memory-and-startup.md
+      - Console and CLI Flow: architecture/console-and-cli-flow.md
+  - Hardware:
+      - Board Assumptions: hardware/board-assumptions.md
+      - Peripheral Plan: hardware/peripheral-plan.md
+      - Bring-up Checklist: hardware/bring-up-checklist.md
+  - Firmware:
+      - Overview: firmware/overview.md
+      - BSP: firmware/bsp.md
+      - Drivers: firmware/drivers.md
+      - CLI Commands: firmware/cli-commands.md
+      - Build and Versioning: firmware/build-and-versioning.md
+  - Simulation:
+      - Renode Overview: simulation/renode-overview.md
+      - ATSAMV71 REPL: simulation/atsamv71-repl.md
+      - RESC Scripts: simulation/resc-scripts.md
+      - Known Limitations: simulation/known-limitations.md
+  - Testing:
+      - Strategy: testing/strategy.md
+      - Robot Framework: testing/robot-framework.md
+      - Python Library: testing/python-library.md
+      - Smoke Test Suite: testing/smoke-test-suite.md
+      - HIL Transition Plan: testing/hil-transition-plan.md
+      - Command Basics: testing/01_basic_commands.md
+      - Command Time RTC: testing/02_time_rtc.md
+      - Command System: testing/03_system.md
+      - Command Power: testing/04_power.md
+      - Command NTC: testing/05_ntc.md
+      - Command SingleSolenoid: testing/06_single_solenoid.md
+      - Command Dual Solenoid: testing/07_dual_solenoid.md
+      - Command Pump: testing/08_pump.md
+      - Command TEC: testing/09_tec.md
+      - Command Power Measurement: testing/10_power_measurement.md
+      - Command Heater: testing/11_heater.md
+      - Command Can: testing/12_can.md
+      - Command CSP: testing/13_csp.md
+      - Command BMP390: testing/14_bmp390.md
+      - Command LSM6DSOX: testing/15_lsm6dsox.md
+      - Command Temperature Control: testing/16_temperature_control.md
+  - CI/CD:
+      - Pipeline: ci/pipeline.md
+      - Artifacts: ci/artifacts.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md

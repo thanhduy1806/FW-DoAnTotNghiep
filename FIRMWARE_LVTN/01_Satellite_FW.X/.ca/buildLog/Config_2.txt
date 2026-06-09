@@ -1,0 +1,14 @@
+make -f nbproject/Makefile-Config_2.mk SUBPROJECTS= .clean-conf
+[31mmake[1]: nbproject/Makefile-Config_2.mk: No such file or directory[0m
+make[1]: Entering directory 'D:/MPLAP_WorkSpace/SpaceLiin_Satellite_SamV71_FW_1.0.0/01_Satellite_FW.X'
+[31mmake[1]: *** No rule to make target 'nbproject/Makefile-Config_2.mk'.  Stop.
+make: *** [nbproject/Makefile-impl.mk:44: .clean-impl] Error 2[0m
+make[1]: Leaving directory 'D:/MPLAP_WorkSpace/SpaceLiin_Satellite_SamV71_FW_1.0.0/01_Satellite_FW.X'
+[31mCLEAN FAILED (exit value 2, total time: 103ms)[0m
+make -f nbproject/Makefile-Config_2.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'D:/MPLAP_WorkSpace/SpaceLiin_Satellite_SamV71_FW_1.0.0/01_Satellite_FW.X'
+make[1]: Leaving directory 'D:/MPLAP_WorkSpace/SpaceLiin_Satellite_SamV71_FW_1.0.0/01_Satellite_FW.X'
+[31mmake[1]: nbproject/Makefile-Config_2.mk: No such file or directory
+make[1]: *** No rule to make target 'nbproject/Makefile-Config_2.mk'.  Stop.
+make: *** [nbproject/Makefile-impl.mk:39: .build-impl] Error 2[0m
+[31mBUILD FAILED (exit value 2, total time: 109ms)[0m

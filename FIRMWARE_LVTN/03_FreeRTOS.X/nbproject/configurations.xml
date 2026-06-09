@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="default" displayName="default" projectFiles="true">
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="clk" displayName="clk" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/clk/plib_clk.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="efc" displayName="efc" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/efc/plib_efc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mcan" displayName="mcan" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/mcan/plib_mcan_common.h</itemPath>
+              <itemPath>../src/config/default/peripheral/mcan/plib_mcan1.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pio" displayName="pio" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/pio/plib_pio.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="systick" displayName="systick" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/systick/plib_systick.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/tc/plib_tc3.h</itemPath>
+              <itemPath>../src/config/default/peripheral/tc/plib_tc_common.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="uart" displayName="uart" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/uart/plib_uart_common.h</itemPath>
+              <itemPath>../src/config/default/peripheral/uart/plib_uart2.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="usart" displayName="usart" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/usart/plib_usart_spi_common.h</itemPath>
+              <itemPath>../src/config/default/peripheral/usart/plib_usart0_spi.h</itemPath>
+              <itemPath>../src/config/default/peripheral/usart/plib_usart2_spi.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../src/config/default/device.h</itemPath>
+          <itemPath>../src/config/default/device_cache.h</itemPath>
+          <itemPath>../src/config/default/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/default/definitions.h</itemPath>
+          <itemPath>../src/config/default/interrupts.h</itemPath>
+          <itemPath>../src/config/default/device_vectors.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="docs" displayName="docs" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="packs" displayName="packs" projectFiles="true">
+        <logicalFolder name="ATSAMV71Q21B_DFP"
+                       displayName="ATSAMV71Q21B_DFP"
+                       projectFiles="true">
+          <logicalFolder name="component" displayName="component" projectFiles="true">
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/acc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/aes.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/afec.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/chipid.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/dacc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/efc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/fuses.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/gmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/gpbr.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/hsmci.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/i2sc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/icm.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/isi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/matrix.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/mcan.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/mlb.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/pio.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/pmc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/pwm.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/qspi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/rswdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/rtt.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/smc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/spi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/ssc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/twihs.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/uart.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/usart.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/usbhs.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/utmi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/component/xdmac.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="instance" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/acc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/aes.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/afec0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/afec1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/chipid.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/dacc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/efc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/fuses.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/gmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/gpbr.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/hsmci.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/i2sc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/i2sc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/icm.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/isi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/matrix.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/mcan0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/mcan1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/mlb.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/pioa.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/piob.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/pioc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/piod.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/pioe.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/pmc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/pwm0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/pwm1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/qspi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/rswdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/rtt.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/smc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/spi0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/spi1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/ssc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/twihs0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/twihs1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/twihs2.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/uart0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/uart1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/uart2.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/uart3.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/uart4.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/usart0.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/usart1.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/usart2.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/usbhs.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/utmi.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/instance/xdmac.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="pio" displayName="pio" projectFiles="true">
+            <itemPath>../src/packs/ATSAMV71Q21B_DFP/pio/samv71q21b.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/packs/ATSAMV71Q21B_DFP/samv71q21b.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="config" displayName="config" projectFiles="true">
+          <logicalFolder name="default" displayName="default" projectFiles="true">
+            <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+              <logicalFolder name="clk" displayName="clk" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="efc" displayName="efc" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="mcan" displayName="mcan" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="pio" displayName="pio" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="systick" displayName="systick" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="uart" displayName="uart" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="dev" displayName="dev" projectFiles="true">
+          <logicalFolder name="M0_App" displayName="M0_App" projectFiles="true">
+            <logicalFolder name="AppOS" displayName="AppOS" projectFiles="true">
+              <logicalFolder name="App_1_Fault" displayName="App_1_Fault" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_1_Monitor"
+                             displayName="App_1_Monitor"
+                             projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_3_CLI" displayName="App_3_CLI" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_CLI/app_cli.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_Comm" displayName="App_3_Comm" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_3_CSP" displayName="App_3_CSP" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_CSP/app_csp.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_Network"
+                             displayName="App_3_Network"
+                             projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_Network/app_network.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_USB" displayName="App_3_USB" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_USB/app_usb.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_4_Alive" displayName="App_4_Alive" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_4_Alive/app_alive.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_4_CTRL" displayName="App_4_CTRL" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_4_CTRL/app_ctrl.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_4_Logging"
+                             displayName="App_4_Logging"
+                             projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_4_Logging/app_logging.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_x_Root" displayName="App_x_Root" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_x_Root/app_root.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="Boot" displayName="Boot" projectFiles="true">
+              <itemPath>../src/dev/M0_App/Boot/boot_manager.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Config" displayName="Config" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="NoOS" displayName="NoOS" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="OS" displayName="OS" projectFiles="true">
+              <itemPath>../src/dev/M0_App/OS/os.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M1_SysApp" displayName="M1_SysApp" projectFiles="true">
+            <logicalFolder name="dmesg" displayName="dmesg" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/dmesg/dmesg.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="EmbeddedCLI" displayName="EmbeddedCLI" projectFiles="true">
+              <logicalFolder name="CLI_Auth" displayName="CLI_Auth" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Auth/simple_shield.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="CLI_Command" displayName="CLI_Command" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Command/cli_command.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="CLI_Setup" displayName="CLI_Setup" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Setup/cli_setup.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="CLI_Src" displayName="CLI_Src" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Src/embedded_cli.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="evt" displayName="evt" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/evt/evt.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="FastIPC" displayName="FastIPC" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/FastIPC/fast_ipc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="rparam" displayName="rparam" projectFiles="true">
+              <logicalFolder name="gs_support" displayName="gs_support" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/bytebuffer.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/byteorder.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/conf_util.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/crc32.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/endian.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/fletcher.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/gs_error.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/gs_stdio.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/gs_string.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/minmax.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/mutex.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/pgm.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/types.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="param" displayName="param" projectFiles="true">
+                <logicalFolder name="internal" displayName="internal" projectFiles="true">
+                  <itemPath>../src/dev/M1_SysApp/rparam/param/internal/rparam.h</itemPath>
+                  <itemPath>../src/dev/M1_SysApp/rparam/param/internal/serialize.h</itemPath>
+                  <itemPath>../src/dev/M1_SysApp/rparam/param/internal/table.h</itemPath>
+                  <itemPath>../src/dev/M1_SysApp/rparam/param/internal/types.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/param_lock.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/param_serializer.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/param_string.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/param_types.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/rparam.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/serialize.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/serialize_local.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/table.h</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/types.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/dev/M1_SysApp/rparam/exp_rparam_table.h</itemPath>
+              <itemPath>../src/dev/M1_SysApp/rparam/rparam_server.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="xlog" displayName="xlog" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/xlog/xlog.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M2_BSP" displayName="M2_BSP" projectFiles="true">
+            <logicalFolder name="UART" displayName="UART" projectFiles="true">
+              <itemPath>../src/dev/M2_BSP/UART/uart_dma.h</itemPath>
+              <itemPath>../src/dev/M2_BSP/UART/uart_irq.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M3_Devices" displayName="M3_Devices" projectFiles="true">
+            <logicalFolder name="FRAM_USART-SPI"
+                           displayName="FRAM_USART-SPI"
+                           projectFiles="true">
+              <itemPath>../src/dev/M3_Devices/FRAM_USART-SPI/fram_usart.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M4_Middlewares"
+                         displayName="M4_Middlewares"
+                         projectFiles="true">
+            <logicalFolder name="Config" displayName="Config" projectFiles="true">
+              <logicalFolder name="FreeRTOS_Config"
+                             displayName="FreeRTOS_Config"
+                             projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/Config/FreeRTOS_Config/FreeRTOSConfig.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="HardwareCSP_Config"
+                             displayName="HardwareCSP_Config"
+                             projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/Config/HardwareCSP_Config/hwcsp_cfg.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="LwIP_Config" displayName="LwIP_Config" projectFiles="true">
+                <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/Config/LwIP_Config/arch/bpstruct.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/Config/LwIP_Config/arch/cc.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/Config/LwIP_Config/arch/epstruct.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/Config/LwIP_Config/arch/sys_arch.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/dev/M4_Middlewares/Config/LwIP_Config/lwipopts.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="TinyUSB_Config"
+                             displayName="TinyUSB_Config"
+                             projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/Config/TinyUSB_Config/board_api.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/Config/TinyUSB_Config/tusb_config.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
+              <logicalFolder name="FreeRTOSv20240604-LTS"
+                             displayName="FreeRTOSv20240604-LTS"
+                             projectFiles="true">
+                <logicalFolder name="include" displayName="include" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/atomic.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/croutine.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/deprecated_definitions.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/event_groups.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/FreeRTOS.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/list.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/message_buffer.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/mpu_prototypes.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/mpu_syscall_numbers.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/mpu_wrappers.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/newlib-freertos.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/picolibc-freertos.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/portable.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/projdefs.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/queue.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/semphr.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/StackMacros.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/stack_macros.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/stream_buffer.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/task.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/include/timers.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="portable" displayName="portable" projectFiles="true">
+                  <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+                    <logicalFolder name="ARM_CM7" displayName="ARM_CM7" projectFiles="true">
+                      <logicalFolder name="r0p1" displayName="r0p1" projectFiles="true">
+                        <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/portable/GCC/ARM_CM7/r0p1/portmacro.h</itemPath>
+                      </logicalFolder>
+                    </logicalFolder>
+                  </logicalFolder>
+                  <logicalFolder name="MemMang" displayName="MemMang" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="libcsp-1.6" displayName="libcsp-1.6" projectFiles="true">
+              <logicalFolder name="doc" displayName="doc" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="examples" displayName="examples" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="include" displayName="include" projectFiles="true">
+                <logicalFolder name="csp" displayName="csp" projectFiles="true">
+                  <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                    <logicalFolder name="posix" displayName="posix" projectFiles="true">
+                      <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/posix/csp_system.h</itemPath>
+                      <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/posix/pthread_queue.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_clock.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_malloc.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_queue.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_semaphore.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_system.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_thread.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/arch/csp_time.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/crypto/csp_hmac.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/crypto/csp_sha1.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/crypto/csp_xtea.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/drivers/can_mcan.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/drivers/can_socketcan.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/interfaces/csp_if_can.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/interfaces/csp_if_i2c.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/interfaces/csp_if_kiss.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/interfaces/csp_if_lo.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/interfaces/csp_if_zmqhub.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_autoconfig.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_buffer.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_cmp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_crc32.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_debug.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_endian.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_error.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_iflist.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_interface.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_platform.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_promisc.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_rtable.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_sfp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_types.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/strings.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/include/csp/csp_heap.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="src" displayName="src" projectFiles="true">
+                <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                  <logicalFolder name="freertos" displayName="freertos" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="bindings" displayName="bindings" projectFiles="true">
+                  <logicalFolder name="python" displayName="python" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+                  <logicalFolder name="can" displayName="can" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_can_pbuf.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="rtable" displayName="rtable" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/rtable/csp_rtable_internal.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="transport" displayName="transport" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/transport/csp_transport.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_conn.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_dedup.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_init.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_io.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_port.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_promisc.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_qfifo.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="LwIP" displayName="LwIP" projectFiles="true">
+              <logicalFolder name="api" displayName="api" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="apps" displayName="apps" projectFiles="true">
+                <logicalFolder name="altcp_tls" displayName="altcp_tls" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/altcp_tls/altcp_tls_mbedtls_mem.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/altcp_tls/altcp_tls_mbedtls_structs.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="http" displayName="http" projectFiles="true">
+                  <logicalFolder name="fs" displayName="fs" projectFiles="true">
+                    <logicalFolder name="img" displayName="img" projectFiles="true">
+                    </logicalFolder>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/fsdata.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/httpd_structs.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="lwiperf" displayName="lwiperf" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="mdns" displayName="mdns" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="mqtt" displayName="mqtt" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="netbiosns" displayName="netbiosns" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="smtp" displayName="smtp" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="snmp" displayName="snmp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmpv3_priv.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_asn1.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_core_priv.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_msg.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_pbuf_stream.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="sntp" displayName="sntp" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="tftp" displayName="tftp" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="core" displayName="core" projectFiles="true">
+                <logicalFolder name="ipv4" displayName="ipv4" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="ipv6" displayName="ipv6" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="include" displayName="include" projectFiles="true">
+                <logicalFolder name="compat" displayName="compat" projectFiles="true">
+                  <logicalFolder name="posix" displayName="posix" projectFiles="true">
+                    <logicalFolder name="arpa" displayName="arpa" projectFiles="true">
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/compat/posix/arpa/inet.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="net" displayName="net" projectFiles="true">
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/compat/posix/net/if.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="sys" displayName="sys" projectFiles="true">
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/compat/posix/sys/socket.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/compat/posix/netdb.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="stdc" displayName="stdc" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/compat/stdc/errno.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="lwip" displayName="lwip" projectFiles="true">
+                  <logicalFolder name="apps" displayName="apps" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/altcp_proxyconnect.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/altcp_tls_mbedtls_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/fs.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/httpd.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/httpd_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/http_client.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/lwiperf.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/mdns.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/mdns_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/mdns_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/mqtt.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/mqtt_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/mqtt_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/netbiosns.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/netbiosns_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/smtp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/smtp_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmpv3.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_core.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_mib2.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_scalar.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_snmpv2_framework.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_snmpv2_usm.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_table.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/snmp_threadsync.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/sntp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/sntp_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/tftp_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/apps/tftp_server.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="priv" displayName="priv" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/altcp_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/api_msg.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/memp_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/memp_std.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/mem_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/nd6_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/raw_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/sockets_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/tcpip_priv.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/priv/tcp_priv.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="prot" displayName="prot" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/autoip.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/dhcp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/dhcp6.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/dns.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/etharp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/ethernet.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/iana.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/icmp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/icmp6.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/ieee.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/igmp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/ip.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/ip4.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/ip6.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/mld6.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/nd6.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/tcp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/prot/udp.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/altcp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/altcp_tcp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/altcp_tls.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/api.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/arch.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/autoip.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/debug.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/def.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/dhcp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/dhcp6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/dns.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/err.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/errno.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/etharp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ethip6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/icmp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/icmp6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/if_api.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/igmp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/inet.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/inet_chksum.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/init.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip4.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip4_addr.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip4_frag.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip6_addr.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip6_frag.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip6_zone.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/ip_addr.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/mem.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/memp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/mld6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/nd6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/netbuf.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/netdb.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/netif.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/netifapi.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/opt.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/pbuf.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/raw.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/sio.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/snmp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/sockets.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/stats.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/sys.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/tcp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/tcpbase.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/tcpip.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/timeouts.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/lwip/udp.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                  <logicalFolder name="ppp" displayName="ppp" projectFiles="true">
+                    <logicalFolder name="polarssl" displayName="polarssl" projectFiles="true">
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/polarssl/arc4.h</itemPath>
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/polarssl/des.h</itemPath>
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/polarssl/md4.h</itemPath>
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/polarssl/md5.h</itemPath>
+                      <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/polarssl/sha1.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ccp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/chap-md5.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/chap-new.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/chap_ms.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/eap.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ecp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/eui64.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/fsm.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ipcp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ipv6cp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/lcp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/magic.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/mppe.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ppp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/pppapi.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/pppcrypt.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/pppdebug.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/pppoe.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/pppol2tp.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/pppos.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ppp_impl.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/ppp_opts.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/upap.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ppp/vj.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/bridgeif.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/bridgeif_opts.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/etharp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ethernet.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/ieee802154.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/lowpan6.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/lowpan6_ble.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/lowpan6_common.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/lowpan6_opts.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/slipif.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/include/netif/zepif.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                <logicalFolder name="ppp" displayName="ppp" projectFiles="true">
+                  <logicalFolder name="polarssl" displayName="polarssl" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="TinyUSB" displayName="TinyUSB" projectFiles="true">
+              <logicalFolder name="class" displayName="class" projectFiles="true">
+                <logicalFolder name="audio" displayName="audio" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/audio/audio.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/audio/audio_device.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="bth" displayName="bth" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/bth/bth_device.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="cdc" displayName="cdc" projectFiles="true">
+                  <logicalFolder name="serial" displayName="serial" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/serial/ch34x.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/serial/cp210x.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/serial/ftdi_sio.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/serial/pl2303.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/cdc.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/cdc_device.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/cdc_host.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/cdc_rndis.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="dfu" displayName="dfu" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/dfu/dfu.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/dfu/dfu_device.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/dfu/dfu_rt_device.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="hid" displayName="hid" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/hid/hid.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/hid/hid_device.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/hid/hid_host.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="midi" displayName="midi" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/midi/midi.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/midi/midi_device.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/midi/midi_host.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="msc" displayName="msc" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/msc/msc.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/msc/msc_device.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/msc/msc_host.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mtp" displayName="mtp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/mtp/mtp.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/mtp/mtp_device.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="net" displayName="net" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/net/ncm.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/net/net_device.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="usbtmc" displayName="usbtmc" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/usbtmc/usbtmc.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/usbtmc/usbtmc_device.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="vendor" displayName="vendor" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/vendor/vendor_device.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/vendor/vendor_host.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="video" displayName="video" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/video/video.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/video/video_device.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="common" displayName="common" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_common.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_compiler.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_debug.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_fifo.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_mcu.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_private.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_types.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_verify.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="device" displayName="device" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/device/dcd.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/device/usbd.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/device/usbd_pvt.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="host" displayName="host" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/host/hcd.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/host/hub.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/host/usbh.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/host/usbh_pvt.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="osal" displayName="osal" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_freertos.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_mynewt.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_none.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_pico.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_rtthread.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_rtx4.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/osal/osal_zephyr.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="portable" displayName="portable" projectFiles="true">
+                <logicalFolder name="analog" displayName="analog" projectFiles="true">
+                  <logicalFolder name="max3421" displayName="max3421" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/analog/max3421/hcd_max3421.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="bridgetek" displayName="bridgetek" projectFiles="true">
+                  <logicalFolder name="ft9xx" displayName="ft9xx" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="chipidea" displayName="chipidea" projectFiles="true">
+                  <logicalFolder name="ci_fs" displayName="ci_fs" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_fs/ci_fs_kinetis.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_fs/ci_fs_mcx.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_fs/ci_fs_type.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="ci_hs" displayName="ci_hs" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/ci_hs_hpm.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/ci_hs_imxrt.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/ci_hs_lpc18_43.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/ci_hs_mcx.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/ci_hs_rw61x.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/ci_hs_type.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="dialog" displayName="dialog" projectFiles="true">
+                  <logicalFolder name="da146xx" displayName="da146xx" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="ehci" displayName="ehci" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ehci/ehci.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ehci/ehci_api.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mentor" displayName="mentor" projectFiles="true">
+                  <logicalFolder name="musb" displayName="musb" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/mentor/musb/musb_max32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/mentor/musb/musb_ti.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/mentor/musb/musb_type.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="microchip" displayName="microchip" projectFiles="true">
+                  <logicalFolder name="samx7x" displayName="samx7x" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/microchip/samx7x/common_usb_regs.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="mindmotion" displayName="mindmotion" projectFiles="true">
+                  <logicalFolder name="mm32" displayName="mm32" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="nordic" displayName="nordic" projectFiles="true">
+                  <logicalFolder name="nrf5x" displayName="nrf5x" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="nuvoton" displayName="nuvoton" projectFiles="true">
+                  <logicalFolder name="nuc120" displayName="nuc120" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="nuc121" displayName="nuc121" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="nuc505" displayName="nuc505" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="nxp" displayName="nxp" projectFiles="true">
+                  <logicalFolder name="khci" displayName="khci" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="lpc17_40" displayName="lpc17_40" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nxp/lpc17_40/dcd_lpc17_40.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="lpc_ip3511" displayName="lpc_ip3511" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="ohci" displayName="ohci" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ohci/ohci.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ohci/ohci_nxp.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="raspberrypi" displayName="raspberrypi" projectFiles="true">
+                  <logicalFolder name="pio_usb" displayName="pio_usb" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="rp2040" displayName="rp2040" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/raspberrypi/rp2040/rp2040_usb.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="renesas" displayName="renesas" projectFiles="true">
+                  <logicalFolder name="rusb2" displayName="rusb2" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/renesas/rusb2/rusb2_ra.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/renesas/rusb2/rusb2_rx.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/renesas/rusb2/rusb2_type.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="sony" displayName="sony" projectFiles="true">
+                  <logicalFolder name="cxd56" displayName="cxd56" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="st" displayName="st" projectFiles="true">
+                  <logicalFolder name="stm32_fsdev" displayName="stm32_fsdev" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/fsdev_at32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/fsdev_ch32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/fsdev_common.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/fsdev_stm32.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="typec" displayName="typec" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="sunxi" displayName="sunxi" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/sunxi/musb_def.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="synopsys" displayName="synopsys" projectFiles="true">
+                  <logicalFolder name="dwc2" displayName="dwc2" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_at32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_bcm.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_common.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_efm32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_esp32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_gd32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_nrf.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_stm32.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_type.h</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_xmc.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="template" displayName="template" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="ti" displayName="ti" projectFiles="true">
+                  <logicalFolder name="msp430x5xx" displayName="msp430x5xx" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="valentyusb" displayName="valentyusb" projectFiles="true">
+                  <logicalFolder name="eptri" displayName="eptri" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/valentyusb/eptri/dcd_eptri.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="wch" displayName="wch" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/wch/ch32_usbfs_reg.h</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/wch/ch32_usbhs_reg.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="typec" displayName="typec" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/typec/pd_types.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/typec/tcd.h</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/typec/usbc.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/dev/M4_Middlewares/TinyUSB/tusb.h</itemPath>
+              <itemPath>../src/dev/M4_Middlewares/TinyUSB/tusb_option.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M5_Utils" displayName="M5_Utils" projectFiles="true">
+            <logicalFolder name="DateTime" displayName="DateTime" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/DateTime/date_time.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Define" displayName="Define" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/Define/define.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="prnf" displayName="prnf" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/prnf/prnf.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="RingBuffer" displayName="RingBuffer" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/RingBuffer/ring_buffer.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Tick" displayName="Tick" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/Tick/tick.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M6_Tools" displayName="M6_Tools" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="M7_Tests" displayName="M7_Tests" projectFiles="true">
+          </logicalFolder>
+          <itemPath>../src/dev/board.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="packs" displayName="packs" projectFiles="true">
+          <logicalFolder name="ATSAMV71Q21B_DFP"
+                         displayName="ATSAMV71Q21B_DFP"
+                         projectFiles="true">
+            <logicalFolder name="component" displayName="component" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="instance" displayName="instance" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="pio" displayName="pio" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+              <logicalFolder name="Core" displayName="Core" projectFiles="true">
+                <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../src/ATSAMV71cm7_it.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <logicalFolder name="03_FreeRTOS_default"
+                     displayName="03_FreeRTOS_default"
+                     projectFiles="true">
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>03_FreeRTOS_default/components/dfp.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/efc.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/cmsis.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/mcan1.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/uart2.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/usart0.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/core.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/tc3.yml</itemPath>
+          <itemPath>03_FreeRTOS_default/components/usart2.yml</itemPath>
+        </logicalFolder>
+        <itemPath>03_FreeRTOS_default/mcc-config.mc4</itemPath>
+      </logicalFolder>
+      <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/default/pin_configurations.csv</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LibraryFiles"
+                   displayName="LibraryFiles"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="default" displayName="default" projectFiles="true">
+          <itemPath>../src/config/default/ATSAMV71Q21B.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="default" displayName="default" projectFiles="true">
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="clk" displayName="clk" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/clk/plib_clk.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="efc" displayName="efc" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/efc/plib_efc.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="mcan" displayName="mcan" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/mcan/plib_mcan1.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="pio" displayName="pio" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/pio/plib_pio.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="systick" displayName="systick" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/systick/plib_systick.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/tc/plib_tc3.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="uart" displayName="uart" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/uart/plib_uart2.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="usart" displayName="usart" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/usart/plib_usart0_spi.c</itemPath>
+              <itemPath>../src/config/default/peripheral/usart/plib_usart2_spi.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+            <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
+          </logicalFolder>
+          <itemPath>../src/config/default/initialization.c</itemPath>
+          <itemPath>../src/config/default/interrupts.c</itemPath>
+          <itemPath>../src/config/default/exceptions.c</itemPath>
+          <itemPath>../src/config/default/startup_xc32.c</itemPath>
+          <itemPath>../src/config/default/libc_syscalls.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="config" displayName="config" projectFiles="true">
+          <logicalFolder name="default" displayName="default" projectFiles="true">
+            <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+              <logicalFolder name="clk" displayName="clk" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="efc" displayName="efc" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="mcan" displayName="mcan" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="pio" displayName="pio" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="systick" displayName="systick" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="tc" displayName="tc" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="uart" displayName="uart" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="dev" displayName="dev" projectFiles="true">
+          <logicalFolder name="M0_App" displayName="M0_App" projectFiles="true">
+            <logicalFolder name="AppOS" displayName="AppOS" projectFiles="true">
+              <logicalFolder name="App_1_Fault" displayName="App_1_Fault" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_1_Monitor"
+                             displayName="App_1_Monitor"
+                             projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_3_CLI" displayName="App_3_CLI" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_CLI/app_cli.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_Comm" displayName="App_3_Comm" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_3_CSP" displayName="App_3_CSP" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_CSP/app_csp.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_Network"
+                             displayName="App_3_Network"
+                             projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_Network/app_network.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_USB" displayName="App_3_USB" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_3_USB/app_usb.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_4_Alive" displayName="App_4_Alive" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_4_Alive/app_alive.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_4_CTRL" displayName="App_4_CTRL" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_4_CTRL/app_ctrl.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_4_Logging"
+                             displayName="App_4_Logging"
+                             projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_4_Logging/app_logging.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_x_Root" displayName="App_x_Root" projectFiles="true">
+                <itemPath>../src/dev/M0_App/AppOS/App_x_Root/app_root.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="Boot" displayName="Boot" projectFiles="true">
+              <itemPath>../src/dev/M0_App/Boot/boot_manager.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Config" displayName="Config" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="NoOS" displayName="NoOS" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="OS" displayName="OS" projectFiles="true">
+              <itemPath>../src/dev/M0_App/OS/os.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M1_SysApp" displayName="M1_SysApp" projectFiles="true">
+            <logicalFolder name="dmesg" displayName="dmesg" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/dmesg/dmesg.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="EmbeddedCLI" displayName="EmbeddedCLI" projectFiles="true">
+              <logicalFolder name="CLI_Auth" displayName="CLI_Auth" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Auth/simple_shield.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="CLI_Command" displayName="CLI_Command" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Command/cli_command.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="CLI_Setup" displayName="CLI_Setup" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Setup/cli_setup.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="CLI_Src" displayName="CLI_Src" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/EmbeddedCLI/CLI_Src/embedded_cli.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="evt" displayName="evt" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/evt/evt.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="FastIPC" displayName="FastIPC" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/FastIPC/fast_ipc.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="nanopb" displayName="nanopb" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/nanopb/pb_common.c</itemPath>
+              <itemPath>../src/dev/M1_SysApp/nanopb/pb_decode.c</itemPath>
+              <itemPath>../src/dev/M1_SysApp/nanopb/pb_encode.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="rgosh" displayName="rgosh" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/rgosh/gosh.pb.c</itemPath>
+              <itemPath>../src/dev/M1_SysApp/rgosh/rgosh_error.c</itemPath>
+              <itemPath>../src/dev/M1_SysApp/rgosh/rgosh_serialize.c</itemPath>
+              <itemPath>../src/dev/M1_SysApp/rgosh/rgosh_server.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="rparam" displayName="rparam" projectFiles="true">
+              <logicalFolder name="gs_support" displayName="gs_support" projectFiles="true">
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/bytebuffer.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/byteorder.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/crc32.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/fletcher.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/gs_error.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/gs_stdio.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/gs_string.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/mutex.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/gs_support/strtoint.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="param" displayName="param" projectFiles="true">
+                <logicalFolder name="internal" displayName="internal" projectFiles="true">
+                </logicalFolder>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/serialize.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/string.c</itemPath>
+                <itemPath>../src/dev/M1_SysApp/rparam/param/table.c</itemPath>
+              </logicalFolder>
+              <itemPath>../src/dev/M1_SysApp/rparam/exp_rparam_table.c</itemPath>
+              <itemPath>../src/dev/M1_SysApp/rparam/rparam_server.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="xlog" displayName="xlog" projectFiles="true">
+              <itemPath>../src/dev/M1_SysApp/xlog/xlog.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M2_BSP" displayName="M2_BSP" projectFiles="true">
+            <logicalFolder name="UART" displayName="UART" projectFiles="true">
+              <itemPath>../src/dev/M2_BSP/UART/uart_dma.c</itemPath>
+              <itemPath>../src/dev/M2_BSP/UART/uart_irq.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M3_Devices" displayName="M3_Devices" projectFiles="true">
+            <logicalFolder name="FRAM_USART-SPI"
+                           displayName="FRAM_USART-SPI"
+                           projectFiles="true">
+              <itemPath>../src/dev/M3_Devices/FRAM_USART-SPI/fram_usart.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M4_Middlewares"
+                         displayName="M4_Middlewares"
+                         projectFiles="true">
+            <logicalFolder name="Config" displayName="Config" projectFiles="true">
+              <logicalFolder name="FreeRTOS_Config"
+                             displayName="FreeRTOS_Config"
+                             projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="HardwareCSP_Config"
+                             displayName="HardwareCSP_Config"
+                             projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/Config/HardwareCSP_Config/hwcsp_cfg.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="LwIP_Config" displayName="LwIP_Config" projectFiles="true">
+                <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/Config/LwIP_Config/arch/sys_arch.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="TinyUSB_Config"
+                             displayName="TinyUSB_Config"
+                             projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/Config/TinyUSB_Config/board_api.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/Config/TinyUSB_Config/usb_descriptors.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
+              <logicalFolder name="FreeRTOSv20240604-LTS"
+                             displayName="FreeRTOSv20240604-LTS"
+                             projectFiles="true">
+                <logicalFolder name="include" displayName="include" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder name="portable" displayName="portable" projectFiles="true">
+                  <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+                    <logicalFolder name="ARM_CM7" displayName="ARM_CM7" projectFiles="true">
+                      <logicalFolder name="r0p1" displayName="r0p1" projectFiles="true">
+                        <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/portable/GCC/ARM_CM7/r0p1/port.c</itemPath>
+                      </logicalFolder>
+                    </logicalFolder>
+                  </logicalFolder>
+                  <logicalFolder name="MemMang" displayName="MemMang" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/portable/MemMang/heap_4.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/croutine.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/event_groups.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/list.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/queue.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/stream_buffer.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/tasks.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/FreeRTOS/FreeRTOSv20240604-LTS/timers.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="libcsp-1.6" displayName="libcsp-1.6" projectFiles="true">
+              <logicalFolder name="doc" displayName="doc" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="examples" displayName="examples" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/examples/csp_arch.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/examples/csp_server_client.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/examples/zmqproxy.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="include" displayName="include" projectFiles="true">
+                <logicalFolder name="csp" displayName="csp" projectFiles="true">
+                  <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                    <logicalFolder name="posix" displayName="posix" projectFiles="true">
+                    </logicalFolder>
+                  </logicalFolder>
+                  <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="src" displayName="src" projectFiles="true">
+                <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                  <logicalFolder name="freertos" displayName="freertos" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_clock.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_malloc.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_queue.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_semaphore.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_system.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_thread.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/freertos/csp_time.c</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/csp_system.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/arch/csp_time.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="bindings" displayName="bindings" projectFiles="true">
+                  <logicalFolder name="python" displayName="python" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/bindings/python/pycsp.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="crypto" displayName="crypto" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/crypto/csp_hmac.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/crypto/csp_sha1.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/crypto/csp_xtea.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+                  <logicalFolder name="can" displayName="can" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/drivers/can/can_mcan.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/drivers/can/can_socketcan.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="interfaces" displayName="interfaces" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_can.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_can_pbuf.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_i2c.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_kiss.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_lo.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/interfaces/csp_if_zmqhub.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="rtable" displayName="rtable" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/rtable/csp_rtable.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/rtable/csp_rtable_cidr.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/rtable/csp_rtable_static.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="transport" displayName="transport" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/transport/csp_rdp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/transport/csp_udp.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_bridge.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_buffer.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_conn.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_crc32.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_debug.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_dedup.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_endian.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_hex_dump.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_iflist.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_init.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_io.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_port.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_promisc.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_qfifo.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_route.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_services.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_service_handler.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_sfp.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_compat.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/libcsp-1.6/src/csp_heap.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="LwIP" displayName="LwIP" projectFiles="true">
+              <logicalFolder name="api" displayName="api" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/api_lib.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/api_msg.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/err.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/if_api.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/netbuf.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/netdb.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/netifapi.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/sockets.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/api/tcpip.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="apps" displayName="apps" projectFiles="true">
+                <logicalFolder name="altcp_tls" displayName="altcp_tls" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/altcp_tls/altcp_tls_mbedtls.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/altcp_tls/altcp_tls_mbedtls_mem.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="http" displayName="http" projectFiles="true">
+                  <logicalFolder name="fs" displayName="fs" projectFiles="true">
+                    <logicalFolder name="img" displayName="img" projectFiles="true">
+                    </logicalFolder>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/altcp_proxyconnect.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/fs.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/httpd.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/http_client.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/fsdata.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="lwiperf" displayName="lwiperf" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/lwiperf/lwiperf.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mdns" displayName="mdns" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/mdns/mdns.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mqtt" displayName="mqtt" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/mqtt/mqtt.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="netbiosns" displayName="netbiosns" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/netbiosns/netbiosns.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="smtp" displayName="smtp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/smtp/smtp.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="snmp" displayName="snmp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmpv3.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmpv3_mbedtls.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_asn1.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_core.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_icmp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_interfaces.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_ip.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_snmp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_system.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_tcp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_udp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_msg.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_netconn.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_pbuf_stream.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_raw.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_scalar.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_snmpv2_framework.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_snmpv2_usm.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_table.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_threadsync.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_traps.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="sntp" displayName="sntp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/sntp/sntp.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="tftp" displayName="tftp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/tftp/tftp_server.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="core" displayName="core" projectFiles="true">
+                <logicalFolder name="ipv4" displayName="ipv4" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/autoip.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/dhcp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/etharp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/icmp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/igmp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/ip4.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/ip4_addr.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv4/ip4_frag.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="ipv6" displayName="ipv6" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/dhcp6.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/ethip6.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/icmp6.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/inet6.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/ip6.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/ip6_addr.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/ip6_frag.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/mld6.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/core/ipv6/nd6.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/altcp.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/altcp_alloc.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/altcp_tcp.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/def.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/dns.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/inet_chksum.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/init.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/ip.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/mem.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/memp.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/netif.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/pbuf.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/raw.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/stats.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/sys.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/tcp.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/tcp_in.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/tcp_out.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/timeouts.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/core/udp.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="include" displayName="include" projectFiles="true">
+                <logicalFolder name="compat" displayName="compat" projectFiles="true">
+                  <logicalFolder name="posix" displayName="posix" projectFiles="true">
+                    <logicalFolder name="arpa" displayName="arpa" projectFiles="true">
+                    </logicalFolder>
+                    <logicalFolder name="net" displayName="net" projectFiles="true">
+                    </logicalFolder>
+                    <logicalFolder name="sys" displayName="sys" projectFiles="true">
+                    </logicalFolder>
+                  </logicalFolder>
+                  <logicalFolder name="stdc" displayName="stdc" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="lwip" displayName="lwip" projectFiles="true">
+                  <logicalFolder name="apps" displayName="apps" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="priv" displayName="priv" projectFiles="true">
+                  </logicalFolder>
+                  <logicalFolder name="prot" displayName="prot" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                  <logicalFolder name="ppp" displayName="ppp" projectFiles="true">
+                    <logicalFolder name="polarssl" displayName="polarssl" projectFiles="true">
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                <logicalFolder name="ppp" displayName="ppp" projectFiles="true">
+                  <logicalFolder name="polarssl" displayName="polarssl" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/polarssl/arc4.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/polarssl/des.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/polarssl/md4.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/polarssl/md5.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/polarssl/sha1.c</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/auth.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/ccp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/chap-md5.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/chap-new.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/chap_ms.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/demand.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/eap.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/ecp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/eui64.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/fsm.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/ipcp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/ipv6cp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/lcp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/magic.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/mppe.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/multilink.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/ppp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/pppapi.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/pppcrypt.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/pppoe.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/pppol2tp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/pppos.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/upap.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/utils.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ppp/vj.c</itemPath>
+                </logicalFolder>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/bridgeif.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/bridgeif_fdb.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/ethernet.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/lowpan6.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/lowpan6_ble.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/lowpan6_common.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/slipif.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/LwIP/netif/zepif.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="TinyUSB" displayName="TinyUSB" projectFiles="true">
+              <logicalFolder name="class" displayName="class" projectFiles="true">
+                <logicalFolder name="audio" displayName="audio" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/audio/audio_device.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="bth" displayName="bth" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/bth/bth_device.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="cdc" displayName="cdc" projectFiles="true">
+                  <logicalFolder name="serial" displayName="serial" projectFiles="true">
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/cdc_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/cdc/cdc_host.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="dfu" displayName="dfu" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/dfu/dfu_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/dfu/dfu_rt_device.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="hid" displayName="hid" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/hid/hid_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/hid/hid_host.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="midi" displayName="midi" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/midi/midi_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/midi/midi_host.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="msc" displayName="msc" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/msc/msc_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/msc/msc_host.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mtp" displayName="mtp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/mtp/mtp_device.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="net" displayName="net" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/net/ecm_rndis_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/net/ncm_device.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="usbtmc" displayName="usbtmc" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/usbtmc/usbtmc_device.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="vendor" displayName="vendor" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/vendor/vendor_device.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/vendor/vendor_host.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="video" displayName="video" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/class/video/video_device.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="common" displayName="common" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/common/tusb_fifo.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="device" displayName="device" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/device/usbd.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/device/usbd_control.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="host" displayName="host" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/host/hub.c</itemPath>
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/host/usbh.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="osal" displayName="osal" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="portable" displayName="portable" projectFiles="true">
+                <logicalFolder name="analog" displayName="analog" projectFiles="true">
+                  <logicalFolder name="max3421" displayName="max3421" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/analog/max3421/hcd_max3421.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="bridgetek" displayName="bridgetek" projectFiles="true">
+                  <logicalFolder name="ft9xx" displayName="ft9xx" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/bridgetek/ft9xx/dcd_ft9xx.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="chipidea" displayName="chipidea" projectFiles="true">
+                  <logicalFolder name="ci_fs" displayName="ci_fs" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_fs/dcd_ci_fs.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="ci_hs" displayName="ci_hs" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/dcd_ci_hs.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/chipidea/ci_hs/hcd_ci_hs.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="dialog" displayName="dialog" projectFiles="true">
+                  <logicalFolder name="da146xx" displayName="da146xx" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/dialog/da146xx/dcd_da146xx.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="ehci" displayName="ehci" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ehci/ehci.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mentor" displayName="mentor" projectFiles="true">
+                  <logicalFolder name="musb" displayName="musb" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/mentor/musb/dcd_musb.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/mentor/musb/hcd_musb.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="microchip" displayName="microchip" projectFiles="true">
+                  <logicalFolder name="samx7x" displayName="samx7x" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/microchip/samx7x/dcd_samx7x.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="mindmotion" displayName="mindmotion" projectFiles="true">
+                  <logicalFolder name="mm32" displayName="mm32" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/mindmotion/mm32/dcd_mm32f327x_otg.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="nordic" displayName="nordic" projectFiles="true">
+                  <logicalFolder name="nrf5x" displayName="nrf5x" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nordic/nrf5x/dcd_nrf5x.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="nuvoton" displayName="nuvoton" projectFiles="true">
+                  <logicalFolder name="nuc120" displayName="nuc120" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nuvoton/nuc120/dcd_nuc120.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="nuc121" displayName="nuc121" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nuvoton/nuc121/dcd_nuc121.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="nuc505" displayName="nuc505" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nuvoton/nuc505/dcd_nuc505.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="nxp" displayName="nxp" projectFiles="true">
+                  <logicalFolder name="khci" displayName="khci" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nxp/khci/dcd_khci.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nxp/khci/hcd_khci.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="lpc17_40" displayName="lpc17_40" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nxp/lpc17_40/dcd_lpc17_40.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="lpc_ip3511" displayName="lpc_ip3511" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/nxp/lpc_ip3511/dcd_lpc_ip3511.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="ohci" displayName="ohci" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ohci/ohci.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="raspberrypi" displayName="raspberrypi" projectFiles="true">
+                  <logicalFolder name="pio_usb" displayName="pio_usb" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/raspberrypi/pio_usb/dcd_pio_usb.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/raspberrypi/pio_usb/hcd_pio_usb.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="rp2040" displayName="rp2040" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/raspberrypi/rp2040/dcd_rp2040.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/raspberrypi/rp2040/hcd_rp2040.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/raspberrypi/rp2040/rp2040_usb.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="renesas" displayName="renesas" projectFiles="true">
+                  <logicalFolder name="rusb2" displayName="rusb2" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/renesas/rusb2/dcd_rusb2.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/renesas/rusb2/hcd_rusb2.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/renesas/rusb2/rusb2_common.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="sony" displayName="sony" projectFiles="true">
+                  <logicalFolder name="cxd56" displayName="cxd56" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/sony/cxd56/dcd_cxd56.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="st" displayName="st" projectFiles="true">
+                  <logicalFolder name="stm32_fsdev" displayName="stm32_fsdev" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/dcd_stm32_fsdev.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/fsdev_common.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/stm32_fsdev/hcd_stm32_fsdev.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="typec" displayName="typec" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/st/typec/typec_stm32.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="sunxi" displayName="sunxi" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/sunxi/dcd_sunxi_musb.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="synopsys" displayName="synopsys" projectFiles="true">
+                  <logicalFolder name="dwc2" displayName="dwc2" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dcd_dwc2.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/dwc2_common.c</itemPath>
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/synopsys/dwc2/hcd_dwc2.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="template" displayName="template" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/template/dcd_template.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/template/hcd_template.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="ti" displayName="ti" projectFiles="true">
+                  <logicalFolder name="msp430x5xx" displayName="msp430x5xx" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/ti/msp430x5xx/dcd_msp430x5xx.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="valentyusb" displayName="valentyusb" projectFiles="true">
+                  <logicalFolder name="eptri" displayName="eptri" projectFiles="true">
+                    <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/valentyusb/eptri/dcd_eptri.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="wch" displayName="wch" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/wch/dcd_ch32_usbfs.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/wch/dcd_ch32_usbhs.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/TinyUSB/portable/wch/hcd_ch32_usbfs.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="typec" displayName="typec" projectFiles="true">
+                <itemPath>../src/dev/M4_Middlewares/TinyUSB/typec/usbc.c</itemPath>
+              </logicalFolder>
+              <itemPath>../src/dev/M4_Middlewares/TinyUSB/tusb.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M5_Utils" displayName="M5_Utils" projectFiles="true">
+            <logicalFolder name="DateTime" displayName="DateTime" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/DateTime/date_time.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Define" displayName="Define" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="prnf" displayName="prnf" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/prnf/prnf.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="RingBuffer" displayName="RingBuffer" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/RingBuffer/ring_buffer.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Tick" displayName="Tick" projectFiles="true">
+              <itemPath>../src/dev/M5_Utils/Tick/tick.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="M6_Tools" displayName="M6_Tools" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="M7_Tests" displayName="M7_Tests" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="packs" displayName="packs" projectFiles="true">
+          <logicalFolder name="ATSAMV71Q21B_DFP"
+                         displayName="ATSAMV71Q21B_DFP"
+                         projectFiles="true">
+            <logicalFolder name="component" displayName="component" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="instance" displayName="instance" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="pio" displayName="pio" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+              <logicalFolder name="Core" displayName="Core" projectFiles="true">
+                <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../src/ATSAMV71cm7_it.c</itemPath>
+      </logicalFolder>
+      <itemPath>../src/main.c</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+    <Elem>../docs</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAMV71Q21B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>5.00</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="SAMV71_DFP" vendor="Microchip" version="4.12.237"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../src/dev/M4_Middlewares/LwIP/apps/http/fsdata.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="../src/dev/M4_Middlewares/libcsp-1.6/examples/csp_arch.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="../src/dev/M4_Middlewares/libcsp-1.6/examples/csp_server_client.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="../src/dev/M4_Middlewares/libcsp-1.6/examples/zmqproxy.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="../src/dev/M4_Middlewares/libcsp-1.6/src/bindings/python/pycsp.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="../src/dev/M4_Middlewares/libcsp-1.6/src/drivers/can/can_socketcan.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="../src/dev/M4_Middlewares/libcsp-1.6/src/rtable/csp_rtable_static.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="cast-align" value="false"/>
+        <property key="code-model" value="default"/>
+        <property key="const-model" value="default"/>
+        <property key="data-model" value="default"/>
+        <property key="disable-instruction-scheduling" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-procedural-abstraction" value="false"/>
+        <property key="enable-short-double" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="expand-pragma-config" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/default;../src/packs/ATSAMV71Q21B_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;..\src\config\default;..\src\dev;..\src\dev\M0_App\OS;..\src\dev\M4_Middlewares\Config\FreeRTOS_Config;..\src\dev\M4_Middlewares\Config\LwIP_Config;..\src\dev\M4_Middlewares\Config\TinyUSB_Config;..\src\dev\M4_Middlewares\FreeRTOS\FreeRTOSv20240604-LTS\include;..\src\dev\M4_Middlewares\FreeRTOS\FreeRTOSv20240604-LTS\portable\GCC\ARM_CM7\r0p1;..\src\dev\M4_Middlewares\LwIP\include;..\src\dev\M4_Middlewares\TinyUSB;..\src\dev\M4_Middlewares\TinyUSB\common;..\src\dev\M4_Middlewares\TinyUSB\device;..\src\dev\M4_Middlewares\TinyUSB\portable\microchip\samx7x;..\src\dev\M4_Middlewares\libcsp-1.6\include;..\src\dev\M4_Middlewares\Config\HardwareCSP_Config;..\src\dev\M1_SysApp\rparam;..\src\dev\M1_SysApp\rgosh"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="keep-inline" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="oXC16gcc-errata" value=""/>
+        <property key="oXC16gcc-large-aggregate" value="false"/>
+        <property key="oXC16gcc-mpa-lvl" value=""/>
+        <property key="oXC16gcc-name-text-sec" value=""/>
+        <property key="oXC16gcc-near-chars" value="false"/>
+        <property key="oXC16gcc-no-isr-warn" value="false"/>
+        <property key="oXC16gcc-sfr-warn" value="false"/>
+        <property key="oXC16gcc-smar-io-lvl" value="1"/>
+        <property key="oXC16gcc-smart-io-fmt" value=""/>
+        <property key="optimization-level" value="-O0"/>
+        <property key="place-data-into-section" value="true"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="scalar-model" value="default"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+        <appendMe value="-DPB_FIELD_16BIT "/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-section-info" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC16asm-extra-opts" value=""/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="relax" value="false"/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="enable-data-init" value="true"/>
+        <property key="enable-default-isr" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="512"/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="true"/>
+        <property key="no-ivt" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC16ld-force-link" value="false"/>
+        <property key="oXC16ld-no-smart-io" value="false"/>
+        <property key="oXC16ld-stackguard" value="16"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/default;../src/packs/ATSAMV71Q21B_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="combine-sourcefiles" value="false"/>
+        <property key="common-include-directories" value=""/>
+        <property key="common-macros" value=""/>
+        <property key="dual-boot-partition" value="0"/>
+        <property key="generic-16-bit" value="false"/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mpreserve-all" value="false"/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="preserve-all" value="false"/>
+        <property key="preserve-file" value=""/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="event.recorder.debugger.behavior" value="Running"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="400000-5fffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.smart.program" value="When debugging only"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_by_pin" value="false"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+      <Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="event.recorder.debugger.behavior" value="Running"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="400000-5fffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/03_FreeRTOS.X/debug/default/03_FreeRTOS_ptg"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.smart.program" value="When debugging only"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_by_pin" value="false"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </Tool>
+    </conf>
+  </confs>
+</configurationDescriptor>

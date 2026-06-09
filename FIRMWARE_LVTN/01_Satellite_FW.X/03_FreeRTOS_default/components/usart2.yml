@@ -1,0 +1,171 @@
+configVersion: 1.0.0
+componentName: usart2
+coreVersion: 5.8.3
+device: ATSAMV71Q21B
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: usart2
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: usart2
+          x: '389'
+          y: '212'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    USART_DATA_BITS:
+      attributes:
+        id: USART_DATA_BITS
+      children:
+      - children:
+        - attributes:
+            id: usart2
+            value: DRV_USART_DATA_8_BIT
+          type: Dynamic
+        type: Values
+      type: String
+    USART_HEADER:
+      attributes:
+        id: USART_HEADER
+      children:
+      - children:
+        - attributes:
+            id: name
+          children:
+          - type: Value
+            value: plib_usart_spi_common.h
+          type: String
+        - attributes:
+            id: source
+          children:
+          - type: Value
+            value: ../peripheral/usart_6089/templates/plib_usart_spi_common.h
+          type: String
+        type: Attributes
+      type: File
+    USART_HEADER1:
+      attributes:
+        id: USART_HEADER1
+      children:
+      - children:
+        - attributes:
+            id: name
+          children:
+          - type: Value
+            value: plib_usart2_spi.h
+          type: String
+        - attributes:
+            id: source
+          children:
+          - type: Value
+            value: ../peripheral/usart_6089/templates/plib_usart_spi.h.ftl
+          type: String
+        type: Attributes
+      type: File
+    USART_INTERRUPT_MODE_ENABLE:
+      attributes:
+        id: USART_INTERRUPT_MODE_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: usart2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    USART_MODE:
+      attributes:
+        id: USART_MODE
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    USART_MR_MODE9:
+      attributes:
+        id: USART_MR_MODE9
+      children:
+      - children:
+        - attributes:
+            id: usart2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    USART_RING_BUFFER_MODE_ENABLE:
+      attributes:
+        id: USART_RING_BUFFER_MODE_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: usart2
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    USART_SOURCE1:
+      attributes:
+        id: USART_SOURCE1
+      children:
+      - children:
+        - attributes:
+            id: name
+          children:
+          - type: Value
+            value: plib_usart2_spi.c
+          type: String
+        - attributes:
+            id: source
+          children:
+          - type: Value
+            value: ../peripheral/usart_6089/templates/plib_usart_spi.c.ftl
+          type: String
+        type: Attributes
+      type: File
+    USART_SPI_BRG_VALUE:
+      attributes:
+        id: USART_SPI_BRG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: usart2
+            value: '120'
+          type: Dynamic
+        type: Values
+      type: Integer
+    USART_SPI_BAUD_RATE:
+      attributes:
+        id: USART_SPI_BAUD_RATE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1000000'
+          type: User
+        type: Values
+      type: Integer
+  userData: {}

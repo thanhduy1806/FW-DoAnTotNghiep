@@ -1,0 +1,8 @@
+# Firmware version file
+# Managed by sign_image.py — do not edit BUILD manually
+# Commit this file to version control
+
+MAJOR=1
+MINOR=0
+PATCH=0
+BUILD=0

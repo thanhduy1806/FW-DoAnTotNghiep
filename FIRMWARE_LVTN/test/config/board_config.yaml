@@ -1,0 +1,11 @@
+board:
+  name: BEE-1012-PAY-EXP
+  transport: uart
+  serial_port: COM11
+  baudrate: 115200
+  timeout_s: 1.0
+  newline: "\r\n"
+  boot_wait_s: 2.0
+  prompt: ">"
+  command_ok_token: "OK"
+  selftest_pass_token: "SELFTEST: PASS"
