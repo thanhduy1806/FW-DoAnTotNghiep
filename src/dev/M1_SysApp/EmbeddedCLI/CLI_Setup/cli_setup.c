@@ -18,7 +18,7 @@
 static uint16_t s_uart2_tx_count = 0;
 #endif
 
-#define UART2_CLI_BUFFER_SIZE   3072
+#define UART2_CLI_BUFFER_SIZE   4096
 #define NET_CLI_BUFFER_SIZE     3072
 #define RGOSH_CLI_BUFFER_SIZE   2048 
 
